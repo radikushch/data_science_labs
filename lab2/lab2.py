@@ -134,9 +134,9 @@ Yout00 = np.zeros(n)
 Yout10 = np.zeros(n)
 Yout20 = np.zeros(n)
 for i in range(n):
-     Yout00[i] = abs(YoutS[i] - normalS[i])
-     Yout10[i] = abs(YoutSV[i] - normalS[i])
-     Yout20[i] = abs(YoutSAV[i] - normalS[i])
+     Yout00[i] = abs(YoutS[i] - quadraticS[i])
+     Yout10[i] = abs(YoutSV[i] - quadraticS[i])
+     Yout20[i] = abs(YoutSAV[i] - quadraticS[i])
 
 print('----------------------- статистичны характеристики виміряної вибірки за НАЯВНОСТІ АВ -----------------')
 mYout00=np.median(Yout00);  mYout10=np.median(Yout10);  mYout20=np.median(Yout20)
