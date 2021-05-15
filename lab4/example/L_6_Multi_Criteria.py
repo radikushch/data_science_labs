@@ -14,7 +14,7 @@ F8=np.zeros((Nversion));  F80=np.zeros((Nversion))
 F9=np.zeros((Nversion));  F90=np.zeros((Nversion))
 
 #------------------------------------парсинг вхідного файла -------------------------------
-d = pd.read_excel('d:\\Projects Python\\Data_Science\\Pr1.xls')
+d = pd.read_excel('/Users/rodionkushch/data_science_labs/lab4/example/Pr1.xls')
 print('d=', d)                                          # вивід усого масиву файлу plan_11.xlsx
 print('----------------STOLB-------------------')
 print(d['Товар 9'])                                     # вивід стовпця 'Товар 9'
